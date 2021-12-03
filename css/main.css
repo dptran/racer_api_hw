@@ -1,0 +1,5 @@
+.list-group-item.disabled, .list-group-item:disabled {
+    /* color: #6c757d; */
+    pointer-events: all;
+    /* background-color: #fff; */
+}

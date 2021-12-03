@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/main.js" defer></script>
+</head>
+
+<body>
+    <h1 id="test" class="red-color">Hello World</h1>
+    <h1>This is a test...again</h1>
+
+    <button id="color-button">Add Color to Text</button>
+
+    <div id="easy-grab">
+        <h3>Easy Button Section</h3>
+    </div>
+
+    <!--Copy to clip board example-->
+    <div class="source" contenteditable="true">Grab a copy of me!!</div>
+    <div class="target" contenteditable="true">...and paste it here</div>
+
+    <!--Using The DOM to Grab Form Data-->
+    <form name="testData" id="testDataForm">
+        <label for="season">Season</label>
+        <input type="int" name="season" id="season">
+
+        <label for="round">Round</label>
+        <input type="int" name="round" id="round">
+
+        <button type="submit" id="submitButton">Submit Me</button>
+    </form>
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Name</th>
+                    <th>Nationality</th>
+                    <th>Sponsor</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+    
+            </tbody>
+        </table>
+    </div>  
+
+
+</body>
+
+</html>
